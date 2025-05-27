@@ -41,7 +41,7 @@ export interface Reserva {
   cantidad: number;
 }
 
-export interface NotificationData {
+export interface Notification {
   tipo: 'success' | 'error';
   mensaje: string;
 }
